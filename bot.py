@@ -6,7 +6,7 @@ bot = commands.Bot(command_prefix=',', intents=intents)
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game(name="Shizukii"))
+    await bot.change_presence(activity=discord.Game(name="Testing%"))
     print(f'Logged in as {bot.user}')
 
 @bot.command()
